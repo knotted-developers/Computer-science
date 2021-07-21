@@ -13,14 +13,14 @@
 
 ##### `참고자료`
 
-**CS50강의**: [https://www.edwith.org/cs50/joinLectures/15244?isDesc=false](https://www.edwith.org/cs50/joinLectures/15244?isDesc=false)
+**CS50강의**: [Link](https://www.edwith.org/cs50/joinLectures/15244?isDesc=false)
 
-**알고리즘 :** [https://www.youtube.com/watch?v=PIidtIBCjEg&list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK](https://www.youtube.com/watch?v=PIidtIBCjEg&list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)
+**알고리즘 :** [Link](https://www.youtube.com/watch?v=PIidtIBCjEg&list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK)
 
-**C기반 자료구조 :** [https://www.boostcourse.org/cs112/lecture/118997?isDesc=false](https://www.boostcourse.org/cs112/lecture/118997?isDesc=false)
+**C기반 자료구조 :** [Link](https://www.boostcourse.org/cs112/lecture/118997?isDesc=false)
 
-**면접질문 :** [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
+**면접질문 :** [Link](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
 
-**백엔드면접기출:** [https://www.notion.so/wecode/fb58f9f90d8f477387fc562740c71255](https://www.notion.so/fb58f9f90d8f477387fc562740c71255)
+**백엔드면접기출:** [Link](https://www.notion.so/fb58f9f90d8f477387fc562740c71255)
 
-**목차만 참조해보면 좋을 것 같습니다** : [https://gyoogle.dev/blog/computer-science/data-base/SQL & NOSQL.html](https://gyoogle.dev/blog/computer-science/data-base/SQL%20&%20NOSQL.html)
+**목차만 참조해보면 좋을 것 같습니다** : [Link](https://gyoogle.dev/blog/computer-science/data-base/SQL%20&%20NOSQL.html)
