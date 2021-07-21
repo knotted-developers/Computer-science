@@ -1,4 +1,6 @@
-- Algorith
+- Algorithm
 - Web
 - Database
-- Language
+- Python
+- JavaScript
+
