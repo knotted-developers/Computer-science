@@ -10,7 +10,7 @@
 - [Database](https://github.com/knotted-developers/Computer-science/edit/main/Database)
 - [Python](https://github.com/knotted-developers/Computer-science/edit/main/Python)
 - [JavaScript](https://github.com/knotted-developers/Computer-science/edit/main/JavaScript)
-- [Development common sense](https://github.com/knotted-developers/Computer-science/edit/main/Development_common_sense)
+- [Development common sense](https://github.com/knotted-developers/Computer-science/edit/main/Development%20common%20sense)
 
 ##### `참고자료`
 
