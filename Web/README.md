@@ -1,1 +1,1 @@
-- [Get VS Post](https://github.com/knotted-developers/Computer-science/edit/main/Web/GetVSPost.md)
+- [Get VS Post](https://github.com/knotted-developers/Computer-science/edit/main/Web/GetVSPost)
