@@ -4,7 +4,7 @@
 - 질문에 대한 자세한 내용을 남들이 이해하기 쉽게 작성한다!
 - 다른 구성원의 글에 추가 및 수정할 내용이 있으면 가감없이 편집 후 슬랙에 알려준다!
 
-## 💬 Content
+## 💬 내용
 - [Algorithm](https://github.com/knotted-developers/Computer-science/edit/main/Algorithm)
 - [Web](https://github.com/knotted-developers/Computer-science/edit/main/Web)
 - [Database](https://github.com/knotted-developers/Computer-science/edit/main/Database)
