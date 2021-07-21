@@ -11,7 +11,7 @@
 - [Python](https://github.com/knotted-developers/Computer-science/edit/main/Python)
 - [JavaScript](https://github.com/knotted-developers/Computer-science/edit/main/JavaScript)
 - [Development common sense](https://github.com/knotted-developers/Computer-science/edit/main/Development_common_sense)
-- 
+
 ##### `참고자료`
 
 - [CS50강의](https://www.edwith.org/cs50/joinLectures/15244?isDesc=false)
