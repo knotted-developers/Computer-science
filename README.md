@@ -6,6 +6,41 @@
 - 질문에 대한 자세한 내용을 남들이 이해하기 쉽게 작성한다!
 - 다른 구성원의 글에 추가 및 수정할 내용이 있으면 가감없이 편집 후 슬랙에 알려준다!
 
+## ✏ 작성방법
+
+- **main의 목차들은 각 폴더들에게 연결이 된다**
+- **각 폴더들에 해당 하는 CS지식를 입력한다**
+- **파일의 이름은 CS제목.md로 작성한다(예시/ 파이썬이란?.md)**
+
+  **하이퍼링크** 
+
+  ```
+  [링크 이름](링크 주소)
+  ```
+
+  **토글**
+  
+  ```
+  <details>
+  <summary>여기를 눌러주세요</summary>
+  <div markdown="1">       
+
+  😎숨겨진 내용😎
+
+  </div>
+  </details>
+  ```
+
+  <details>
+  <summary>여기를 눌러주세요</summary>
+  <div markdown="1">       
+
+  😎숨겨진 내용😎
+
+  </div>
+  </details>
+
+
 ## 💬 내용
 - [Algorithm](https://github.com/knotted-developers/Computer-science/edit/main/Algorithm)
 - [Web](https://github.com/knotted-developers/Computer-science/edit/main/Web)
