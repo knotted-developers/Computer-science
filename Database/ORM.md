@@ -4,7 +4,7 @@
 
 **ORM 역할**
 
- **객체 관계 매핑**(Object-relational mapping)의 약자로, 서로 다른 Langauge와 OOP를 사용하는데 제약 받지않으면서 RDBMS를 이용하기 위한 Framework입니다. 
+**객체 관계 매핑**(Object-relational mapping)의 약자로, 서로 다른 Langauge와 OOP를 사용하는데 제약 받지않으면서 RDBMS를 이용하기 위한 Framework입니다.
 
 **ORM 정의**
 
@@ -12,25 +12,25 @@
 
 - `Persistence`(영속성)
 
-    데이터를 생성한 프로그램의 실행이 종료되더라도 사라지지 않는 데이터의 특성
+  데이터를 생성한 프로그램의 실행이 종료되더라도 사라지지 않는 데이터의 특성
 
-    ORM은 프로그램 아키텍처 MVC 구조에서 
+  ORM은 프로그램 아키텍처 MVC 구조에서
 
-    데이터에 영속성을 부여해주는 계층인 Persistence layer에 위치한다
+  데이터에 영속성을 부여해주는 계층인 Persistence layer에 위치한다
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm.png)
+  ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Database/Images/orm.png)
 
 > **ORM 장점**
 
-1) DBMS에 대한 큰 고민없이, ORM에 대한 이해만으로 웬만한 CRUD를 다룰 수 있기 때문에, 비즈니스로직에 집중할 수 있으므로 **개발 생산성을 증가**시킬 수 있다.
+1. DBMS에 대한 큰 고민없이, ORM에 대한 이해만으로 웬만한 CRUD를 다룰 수 있기 때문에, 비즈니스로직에 집중할 수 있으므로 **개발 생산성을 증가**시킬 수 있다.
 
-2) 객체를 통하여 대부분의 데이터를 접근 및 수정을 진행하므로, **코드 가독성**이 좋다.
+2. 객체를 통하여 대부분의 데이터를 접근 및 수정을 진행하므로, **코드 가독성**이 좋다.
 
-3) 데이터 구조 변경시, 객체에 대한 변경만 이루어지면 되므로, **유지보수성**이 좋다.
+3. 데이터 구조 변경시, 객체에 대한 변경만 이루어지면 되므로, **유지보수성**이 좋다.
 
 > **ORM 단점**
 
-1) **Complex Query에 대한 대응 어렵다.**
+1. **Complex Query에 대한 대응 어렵다.**
 
 ---
 
@@ -40,27 +40,29 @@
 
 - `Django ORM`
 
-    Django에 내장되어있는 ORM으로, **active record implementation** 을 바탕으로 한다.
+  Django에 내장되어있는 ORM으로, **active record implementation** 을 바탕으로 한다.
 
-    - **Active record implementation**
-        1. Database의 schema(=Model class)와 Mapping 된 Domain 내의 데이터 객체 간 모든 field가 동일해야한다.
+  - **Active record implementation**
 
-            Persistant Layer와 Domain Layer가 가깝다.
+    1. Database의 schema(=Model class)와 Mapping 된 Domain 내의 데이터 객체 간 모든 field가 동일해야한다.
 
-        2. Autocommit되어 직관적이다.
+       Persistant Layer와 Domain Layer가 가깝다.
+
+    2. Autocommit되어 직관적이다.
 
 - `SQLalchemy ORM`
 
-    Python으로 사용가능한 ORM으로, **Data Mapper implementation** 을 바탕으로 한다.
+  Python으로 사용가능한 ORM으로, **Data Mapper implementation** 을 바탕으로 한다.
 
-    - **Data Mapper implementation**
-        1. Database의 schema(=Model class)와 Mapping 된 Domain 내의 데이터 객체 간 분리되어있다.
+  - **Data Mapper implementation**
 
-            Persistant Layer와 Domain Layer가 멀다.
+    1. Database의 schema(=Model class)와 Mapping 된 Domain 내의 데이터 객체 간 분리되어있다.
 
-            Session으로 연결해줘야 한다.
+       Persistant Layer와 Domain Layer가 멀다.
 
-        2. Autocommit되지 않아 직관적인 CRUD 구현되지 않으나 정형적이다.
+       Session으로 연결해줘야 한다.
+
+    2. Autocommit되지 않아 직관적인 CRUD 구현되지 않으나 정형적이다.
 
 **결론**
 
@@ -72,7 +74,7 @@ SQLalchemy ORM 우위
 - READ query 위주이며
 - 비즈니스 로직 상 Constraint가 확연하고
 - 유지보수가 중요할 시
-- 
+-
 
 Django ORM 우위
 
@@ -84,23 +86,23 @@ Django ORM 우위
 
 - DataStructure 과 ObjectStructure 간 분리도
 
-    Django ORM uses the active record implementation
+  Django ORM uses the active record implementation
 
-    SQLAlchemy uses the Data Mapper implementation
+  SQLAlchemy uses the Data Mapper implementation
 
-    - SQLalchemy model(Database 관점)
+  - SQLalchemy model(Database 관점)
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Development%20common%20sense/Images/orm2.png)
+  ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Database/Images/orm2.png)
 
-    - Framwork schema(Domain 관점)
+  - Framwork schema(Domain 관점)
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Development%20common%20sense/Images/orm3.png)
+  ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Database/Images/orm3.png)
 
-    - Framwork View
+  - Framwork View
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Development%20common%20sense/Images/orm4.png)
+  ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Database/Images/orm4.png)
 
-    1. response schema / 2. input schema                                    3. db와 직접 연결 / 4. 직접 commit
+  1. response schema / 2. input schema 3. db와 직접 연결 / 4. 직접 commit
 
 Complex Queries 적합도
 
@@ -108,15 +110,15 @@ Autocommit 여부
 
 - Primary Key 자동생성
 
-    **Django orm**
+  **Django orm**
 
-    Table modeling 시, Primary Key가 Autoincrement로 정의된다.
+  Table modeling 시, Primary Key가 Autoincrement로 정의된다.
 
-    **SQLA** 
+  **SQLA**
 
-    Primary Key가 자동생성되지 않아, Table modeling 시 class에 직접 정의해 준다.
+  Primary Key가 자동생성되지 않아, Table modeling 시 class에 직접 정의해 준다.
 
-    Table간 관계가 복잡해질수록 SQLA의 유연성이 더 커진다...?
+  Table간 관계가 복잡해질수록 SQLA의 유연성이 더 커진다...?
 
 ---
 
