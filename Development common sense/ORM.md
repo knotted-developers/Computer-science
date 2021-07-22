@@ -90,15 +90,15 @@ Django ORM 우위
 
     - SQLalchemy model(Database 관점)
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm2.png)
+    ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Development%20common%20sense/Images/orm2.png)
 
     - Framwork schema(Domain 관점)
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm3.png)
+    ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Development%20common%20sense/Images/orm3.png)
 
     - Framwork View
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm4.png)
+    ![](https://github.com/knotted-developers/Computer-science/blob/8f94b101e59f43839709663bb3307beb69495d52/Development%20common%20sense/Images/orm4.png)
 
     1. response schema / 2. input schema                                    3. db와 직접 연결 / 4. 직접 commit
 
