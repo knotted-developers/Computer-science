@@ -33,7 +33,7 @@ Access token을 생성하는 방법 중 가장 널리 사용되는 기술 중 �
 
 1. **JWT의 작동 방법을 알고있는가?**
 
-![](https://github.com/knotted-developers/Computer-science/blob/main/Development%20common%20sense/Images/jwt.png)
+![](https://github.com/knotted-developers/Computer-science/blob/main/Web/Images/jwt.png)
 
 1. client가 서버에 http요청(로그인)하면, 
 2. 유저정보 확인 후 서버의 secret key를 활용해 jwt를 생성 및 발행
@@ -47,7 +47,7 @@ Access token을 생성하는 방법 중 가장 널리 사용되는 기술 중 �
 
 파이썬에서는 PyJWT 라이브러리를 사용해서 구현할 수 있다. JWT를 생성하고 복화하도 할 수 있게 해주는 라이브러리이다.  JWT는 `header, payload, signature` 세 부분으로 구성되어 있다.
 
-![](https://github.com/knotted-developers/Computer-science/blob/main/Development%20common%20sense/Images/jwt2.png)
+![](https://github.com/knotted-developers/Computer-science/blob/main/Web/Images/jwt2.png)
 
 서버는 토큰 안에 들어있는 정보가 무엇인지 아는게 중요한게 아니라 `해당 토큰이 유효한지 확인하는 것이 중요`하기 때문에 클라이언트로부터 받은 JWT의 헤더, 페이로드를 서버의 key값을 이용해 시그니처를 다시 만들고 이를 비교해 일치할 경우 인증을 통과 시킨다.
 
@@ -63,10 +63,10 @@ HTTP는 Stateless , Connectionless 특징이 있기 때문에, 사용자 인증
 
 🫐 **JWT 장점**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/777c103d-4365-4f78-adec-d3dbb343e364/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/777c103d-4365-4f78-adec-d3dbb343e364/Untitled.png)
+![](https://github.com/knotted-developers/Computer-science/blob/main/Web/Images/jwt3.png)
 
 🫐 **JWT 단점**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ab353b2-00ba-4e87-8eb7-19fc4e186c64/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ab353b2-00ba-4e87-8eb7-19fc4e186c64/Untitled.png)
+![](https://github.com/knotted-developers/Computer-science/blob/main/Web/Images/jwt4.png)
 
 ## 🥑 참고: [JWT 공식 사이트](https://jwt.io/introduction)
