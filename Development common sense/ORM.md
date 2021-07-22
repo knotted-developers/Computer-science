@@ -18,7 +18,7 @@
 
     데이터에 영속성을 부여해주는 계층인 Persistence layer에 위치한다
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/0a66fd079dd3f39c7934a354aca29be4cfcffad9/Development%20common%20sense/ORM.md)
+    ![](https://github.com/knotted-developers/Computer-science/blob/0a66fd079dd3f39c7934a354aca29be4cfcffad9/Development%20common%20sense/orm.png)
 
 > **ORM 장점**
 
