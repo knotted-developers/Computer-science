@@ -8,7 +8,7 @@
 
 ## ✏ 작성방법
 
-- [main의 목차](#내용)들은 각 폴더들에게 연결이 된다
+- [main의 목차](#목차)들은 각 폴더들에게 연결이 된다
 - 각 폴더들에 해당 하는 CS지식를 입력한다
 - 파일의 이름은 CS제목.md로 작성한다(예시/ 파이썬이란?.md)
 
@@ -41,7 +41,7 @@
   </details>
 
 
-## 내용
+## 목차
 - [Algorithm](https://github.com/knotted-developers/Computer-science/edit/main/Algorithm)
 - [Web](https://github.com/knotted-developers/Computer-science/edit/main/Web)
 - [Database](https://github.com/knotted-developers/Computer-science/edit/main/Database)
