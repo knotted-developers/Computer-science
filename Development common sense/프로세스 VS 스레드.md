@@ -10,7 +10,7 @@
 
 > 컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0200b46-0aa2-4e36-9375-2da6ab4325a7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0200b46-0aa2-4e36-9375-2da6ab4325a7/Untitled.png)
+![](https://github.com/knotted-developers/Computer-science/tree/main/Development%20common%20sense/Images/process.png)
 
 - 메모리에 올라와 실행되고 있는 프로그램의 인스턴스(**독립적인 개체**)
 - 운영체제로부터 **시스템 자원**을 할당받는 작업의 단위
@@ -28,7 +28,7 @@
 
 > 프로세스가 할당받은 자원을 이용하는 실행의 단위
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce4f0275-7081-4832-a264-caac569f1e6e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ce4f0275-7081-4832-a264-caac569f1e6e/Untitled.png)
+![](https://github.com/knotted-developers/Computer-science/tree/main/Development%20common%20sense/Images/process2.png)
 
 - 스레드는 프로세스 내에서 각각 Stack만 따로 할당받고 Code, Data, Heap 영역은 공유한다.
 - 스레드는 한 프로세스 내에서 동작되는 여러 실행의 흐름으로, 프로세스 내의 주소 공간이나 자원들(힙 공간 등)을 같은 프로세스 내에 스레드끼리 공유하면서 실행된다.
@@ -55,7 +55,7 @@
 
 > **멀티 프로세스 보다 멀티 스레드를 사용하는 이유**
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/421429cc-2365-4f2d-874e-5c469588294a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/421429cc-2365-4f2d-874e-5c469588294a/Untitled.png)
+![](https://github.com/knotted-developers/Computer-science/tree/main/Development%20common%20sense/Images/process3.png)
 
 `참고자료`
 
