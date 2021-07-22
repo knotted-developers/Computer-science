@@ -28,13 +28,13 @@ HTTPS는 하이퍼 텍스트 전송 프로토콜 보안(Hypertext Transfer Proto
 - **2. 키 교환 및 인증**
 - **3. 대칭키 암호로 암호화하고 메시지 인증**
 
-![](https://github.com/knotted-developers/Computer-science/blob/main/Development%20common%20sense/Images/http.png)
+![](https://github.com/knotted-developers/Computer-science/blob/main/Wen/Images/http.png)
 
 이미지 출처: [https://raonctf.com/essential/study/web/ssl_tls](https://raonctf.com/essential/study/web/ssl_tls)
 
 **`SSL/TLS Handshake 개념`**
 
-![](https://github.com/knotted-developers/Computer-science/blob/main/Development%20common%20sense/Images/http2.png)
+![](https://github.com/knotted-developers/Computer-science/blob/main/Web/Images/http2.png)
 
 **`HTTP Request vs HTTPs Request  생김새 차이`**
 
@@ -42,4 +42,4 @@ HTTPS는 하이퍼 텍스트 전송 프로토콜 보안(Hypertext Transfer Proto
 
 아래 해쉬된 내용 확인!
 
-![](https://github.com/knotted-developers/Computer-science/blob/main/Development%20common%20sense/Images/http3.png)
+![](https://github.com/knotted-developers/Computer-science/blob/main/Web/Images/http3.png)
