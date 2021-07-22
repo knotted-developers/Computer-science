@@ -18,7 +18,7 @@
 
     데이터에 영속성을 부여해주는 계층인 Persistence layer에 위치한다
 
-    ![](https://github.com/knotted-developers/Computer-science/blob/0a66fd079dd3f39c7934a354aca29be4cfcffad9/Development%20common%20sense/orm.png)
+    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm.png)
 
 > **ORM 장점**
 
@@ -90,15 +90,15 @@ Django ORM 우위
 
     - SQLalchemy model(Database 관점)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c08e93f1-db3b-4a28-9600-f82b224c588b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c08e93f1-db3b-4a28-9600-f82b224c588b/Untitled.png)
+    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm2.png)
 
     - Framwork schema(Domain 관점)
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c04aad33-b66c-4ebb-bfea-414ac246115a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c04aad33-b66c-4ebb-bfea-414ac246115a/Untitled.png)
+    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm3.png)
 
     - Framwork View
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc155073-c814-4bed-9fba-171db0206b95/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc155073-c814-4bed-9fba-171db0206b95/Untitled.png)
+    ![](https://github.com/knotted-developers/Computer-science/blob/96b840b26de3bddfa8c4957914ac66f2dff8ffe0/Development%20common%20sense/Images/orm4.png)
 
     1. response schema / 2. input schema                                    3. db와 직접 연결 / 4. 직접 commit
 
