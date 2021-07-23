@@ -4,7 +4,7 @@
 
     - API는 Application Programing Interface의 약자
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aac363c1-cd7c-41fc-b50c-056da40b3abf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aac363c1-cd7c-41fc-b50c-056da40b3abf/Untitled.png)
+    https://www.notion.so/API-47edafa408044be6b9ba3604f95ad7a7#dfd71ff0aa4c47069b6469815b166d7d
 
     🌹 API는 손님(프로그램)이 주문할 수 있게 메뉴(명령 목록)를 정리하고, 주문(명령)을 받으면 요리사(응용프로그램)와 상호작용하여 요청된 메뉴(명령에 대한 값)를 전달한다.
 
