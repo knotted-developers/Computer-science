@@ -2,7 +2,8 @@
 
 ---
 
-RDBMS는 관계형 데이터베이스, NoSQL은 SQL만을 사용하지 않는 데이터베이스입니다. 데이터를 저장하는 테이블의 스키마와 Join 여부에 따라 구분되며, 데이터 타입과 처리량 / 서비스 성격 등을 고려하여 상황에 맞는 데이터 베이스를 개별적으로 혹은 혼합하여 도입 할 수 있습니다.
+> **한줄정리**  
+> RDBMS는 관계형 데이터베이스, NoSQL은 SQL만을 사용하지 않는 데이터베이스입니다. 데이터를 저장하는 테이블의 스키마와 Join 여부에 따라 구분되며, 데이터 타입과 처리량 / 서비스 성격 등을 고려하여 상황에 맞는 데이터 베이스를 개별적으로 혹은 혼합하여 도입 할 수 있습니다.
 
 웹 앱을 개발 할 때, 데이터 베이스 선택을 고민하게 됩니다.
 
@@ -56,42 +57,42 @@ NoSQL은 기본적으로 SQL데이터베이스와 반대되는 접근방식을 �
 
 이 두가지가 NoSQL을 요약한 것입니다.
 
-- NoSQL 데이터베이스는 여러 종류가 있습니다.
+<details>
+<summary>NoSQL 데이터베이스는 여러 종류가 있습니다.</summary>
+    
+기반으로하는 데이터 모델별 대표 NoSQL데이터베이스
+        
+1. Document Store 
+    - 문서모델 NoSQL 은 하나의 키에 구조화된 문서를 저장하고 조회한다.  문서모델에서 의미하는 구조화된 문서란 가장 대표적으로 JSON이 있으며, XML과 같이 구조를 갖는 문서를 말한다.
+    - 저장된 문서를 컬렉션으로 관리하고, 저장과 동시에 문서 ID에 대한 인덱스를 생성한다.  문서모델의 키는 문서에 대한 ID로 표현됨.
+    - 키-값 및 컬럼 모델에 비하여 많은 종류의 기능을 제공하며, RBMS와 유사한 검색조건을 포함한 쿼리를 처리할 수 있다.  이러한 특징 덕분에 문서모델 NoSQL은 많은 인기를 얻고 있다.
+    - 대부분의 문서 모델 NoSQL은 B트리 인덱스를 사용하여 2차 인덱스를 생성한다. 그러나 B트리는 크기가 커질수록 새로운 데이터를 입력하거나 삭제할때 성능이 떨어지게 된다. 이러한 이유로 B트리를 사용하는 문서 모델 NoSQL은 읽기와 쓰기 비율을 7:3 이상으로 유지할때 더 좋은 성능을 보인다. 결국 사용하는 문서 모델 NoSQL의 특징을 파악하고 사용하자.
+    - B트리의 특성 떄문에 한 번 작성되면 자주 변하지 않는 정보를 저장하고 조회하는데 적합하며, 로그저장, 타임라인 저장, 채팅로그 기록이나 조회에 적합하다.
+    - 문서 모델 NoSQL : MongoDB
+    
+2. Key-Value Store 
+    - 키 값 모델의 가장 큰 특징은 단순한 저장구조를 갖으며, 복잡한 조회 연산을 지원하지 않는다.
+    - 저장되는 값을 단지 의미 없는 바이너리 데이터로 처리.
+    - 고속 읽기와 쓰기에 최적화된 경우가 많다.
+    - 키-값 모델 NoSQL 예 : Redis, Riak 등
 
-    기반으로하는 데이터 모델 별 대표 NoSQL데이터베이스
+    키-값 모델의 특징을 고려해 볼때, 단일 연산에 처리할 수 있는 데이터들을 저장하는데 적합하다.
 
-    - Document Store
-        - 문서모델 NoSQL 은 하나의 키에 구조화된 문서를 저장하고 조회한다.  문서모델에서 의미하는 구조화된 문서란 가장 대표적으로 JSON이 있으며, XML과 같이 구조를 갖는 문서를 말한다.
-        - 저장된 문서를 컬렉션으로 관리하고, 저장과 동시에 문서 ID에 대한 인덱스를 생성한다.  문서모델의 키는 문서에 대한 ID로 표현됨.
-        - 키-값 및 컬럼 모델에 비하여 많은 종류의 기능을 제공하며, RBMS와 유사한 검색조건을 포함한 쿼리를 처리할 수 있다.  이러한 특징 덕분에 문서모델 NoSQL은 많은 인기를 얻고 있다.
-        - 대부분의 문서 모델 NoSQL은 B트리 인덱스를 사용하여 2차 인덱스를 생성한다. 그러나 B트리는 크기가 커질수록 새로운 데이터를 입력하거나 삭제할때 성능이 떨어지게 된다. 이러한 이유로 B트리를 사용하는 문서 모델 NoSQL은 읽기와 쓰기 비율을 7:3 이상으로 유지할때 더 좋은 성능을 보인다. 결국 사용하는 문서 모델 NoSQL의 특징을 파악하고 사용하자.
-        - B트리의 특성 떄문에 한 번 작성되면 자주 변하지 않는 정보를 저장하고 조회하는데 적합하며, 로그저장, 타임라인 저장, 채팅로그 기록이나 조회에 적합하다.
-        - 문서 모델 NoSQL : MongoDB
-    - Key-Value Store
-        - 키 값 모델의 가장 큰 특징은 단순한 저장구조를 갖으며, 복잡한 조회 연산을 지원하지 않는다.
-        - 저장되는 값을 단지 의미 없는 바이너리 데이터로 처리.
-        - 고속 읽기와 쓰기에 최적화된 경우가 많다.
-        - 키-값 모델 NoSQL 예 : Redis, Riak 등
+    참여한 프로젝트의 경우는 자주검색되는 데이터를 Redis에 set하고,
 
-        키-값 모델의 특징을 고려해 볼때, 단일 연산에 처리할 수 있는 데이터들을 저장하는데 적합하다.
+    RDBMS 조회전에 Redis를 먼저 바라봄으로서 검색속도를 비약적으로 개선했다.
 
-        참여한 프로젝트의 경우는 자주검색되는 데이터를 Redis에 set하고,
+    결론, 하나의 서비스 요청에 단일 연산 처리로 대응할수 있는 시스템에 적합하다.
+3. Wide Cloumn Store
+4. Graph Store
+![image](https://user-images.githubusercontent.com/79136484/126866546-bce2af08-a926-4e50-bc5a-63d779e8b70e.png)
 
-        RDBMS 조회전에 Redis를 먼저 바라봄으로서 검색속도를 비약적으로 개선했다.
+![image](https://user-images.githubusercontent.com/79136484/126866555-27a35837-627c-4b89-86e8-0747213188aa.png)
 
-        결론, 하나의 서비스 요청에 단일 연산 처리로 대응할수 있는 시스템에 적합하다.
-
-    - Wide Cloumn Store
-    - Graph Store
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0cdbd9e-106a-4455-919d-e2cb9d69587c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f0cdbd9e-106a-4455-919d-e2cb9d69587c/Untitled.png)
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6429bc26-1d03-499b-8d15-67f8da556391/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6429bc26-1d03-499b-8d15-67f8da556391/Untitled.png)
-
-    **간략한 DB 성능비교**
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/decdfd2a-07f1-4bbb-bc66-4373e469b85e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/decdfd2a-07f1-4bbb-bc66-4373e469b85e/Untitled.png)
-
+간략한 DB 성능비교
+![image](https://user-images.githubusercontent.com/79136484/126866728-e7be8a32-acbd-413a-85a7-f967c025d192.png)
+</details>
+    
 **[monogoDB와 같은 Document store 양식의 NoSQL 기준으로 설명드리겠습니다]**
 
 > **1. 스키마가 없거나 느슨함**
@@ -128,15 +129,13 @@ NoSQL 데이터베이스에는 조인이라는 개념이 없습니다.
 
 NoSQL은 특히 데이터 수정작업이 필요없는 자주 바뀌지 않는 데이터 일때 좋습니다.
 
-- SQL vs NoSQL Data 예시
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c303ad5-a23e-45cb-bce3-0d4338da4790/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c303ad5-a23e-45cb-bce3-0d4338da4790/Untitled.png)
-
-    RDBMS 상에서 JOIN을 통한 데이터 정렬
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c125b70-3544-4440-88cc-fa75b9f6b904/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c125b70-3544-4440-88cc-fa75b9f6b904/Untitled.png)
-
-    NoSQL에서 JSON 형태를 이용한 데이터 나열
+<details>
+<summary>SQL vs NoSQL Data 예시</summary>
+    
+![image](https://user-images.githubusercontent.com/79136484/126866802-0c9d4053-05e2-43a2-9450-6b1fef782ad3.png)
+    
+![image](https://user-images.githubusercontent.com/79136484/126866841-b9c796c9-ae29-42d4-bcc0-afa58bc51fff.png)
+</details>
 
 ### **수직 및 수평 스케일링**
 
