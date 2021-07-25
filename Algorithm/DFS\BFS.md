@@ -10,7 +10,7 @@
 - 위에서부터 아래로 차례대로 내려오는 구조이므로 스택을 이용하여 구현한다
 - 노드를 방문했으면 그 노드를 방문했다는 여부를 검사해야한다
 
-![](https://github.com/knotted-developers/Computer-science/blob/333fa1732df10ece205c737bf4a320bb8cc58cac/Algorithm/Images/DFS.gif){: width="100" height="100"}
+![](/Images/DFS.gif){: width="100" height="100"}
 
 DFS의 시간 복잡도
 
