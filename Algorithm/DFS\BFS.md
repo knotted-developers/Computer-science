@@ -10,7 +10,7 @@
 - 위에서부터 아래로 차례대로 내려오는 구조이므로 스택을 이용하여 구현한다
 - 노드를 방문했으면 그 노드를 방문했다는 여부를 검사해야한다
 
-![](/Images/DFS.gif){: width="100" height="100"}
+<img src="https://github.com/knotted-developers/Computer-science/blob/e854f1545ebe7ba8c34c6042988565f601885e05/Algorithm/Images/DFS.gif" width="300" height="300">
 
 DFS의 시간 복잡도
 
@@ -19,7 +19,7 @@ DFS의 시간 복잡도
   - 인접 행렬로 표현된 그래프: O(N^2)
 
 <details>
-<summary>DFS 예시</summary>
+<summary>DFS 예시 </summary>
 <div markdown="1">
 
 ```python
@@ -62,7 +62,7 @@ dfs(graph, 1, visited)
 - 인접한 노드를 저장하고 꺼내므로 큐를 이용하여 구현한다
 - 노드를 방문했으면 그 노드를 방문했다는 여부를 검사해야한다
 
-![](https://github.com/knotted-developers/Computer-science/blob/333fa1732df10ece205c737bf4a320bb8cc58cac/Algorithm/Images/BFS.gif)
+<img src="https://github.com/knotted-developers/Computer-science/blob/333fa1732df10ece205c737bf4a320bb8cc58cac/Algorithm/Images/BFS.gif" width="300" height="300">
 
 BFS의 시간 복잡도
 
@@ -71,7 +71,7 @@ BFS의 시간 복잡도
   - 인접 행렬로 표현된 그래프: O(N^2)
 
 <details>
-<summary>BFS 예시</summary>
+<summary>BFS 예시 코드</summary>
 <div markdown="1">
 
 ```python
@@ -108,9 +108,3 @@ bfs(graph, 1, visited)
 
 </div>
 </details>
-
-### B-Tree
-
-[B-Tree 테스트 사이트](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
-
-> https://gmlwjd9405.github.io/2018/08/15/algorithm-bfs.html
