@@ -2,24 +2,21 @@
 
 **깊이 우선 탐색(DFS, Depth-First Search)**
 
-- 위에서 아래로 가는 탐색으로 최상단 노드부터 아래로 탐색하는 자료구조
+- 위에서 아래로 가는 탐색으로 최상단 노드부터 아래로 탐색하는 알고리즘
 - 모든 노드를 탐색하기 위해서 사용한다
 - 단순 검색 속도에서는 BFS보다는 느리다
+- 깊이를 알 수 없는 구조이면 시간이 무한정으로 늘어날 수 있다
 - 순환 알고리즘을 이용하므로 python에서는 재귀함수를 이용한다
--
-- 노드를 방문했으면 그 노드를 방문했다는 여부를 등록을 해야 된다
+- 위에서부터 아래로 차례대로 내려오는 구조이므로 스택을 이용하여 구현한다
+- 노드를 방문했으면 그 노드를 방문했다는 여부를 검사해야한다
 
-해당 그림
+[](https://github.com/knotted-developers/Computer-science/blob/main/Algorithm/Images/DFS.gif)
 
 DFS의 시간 복잡도
 
 - DFS는 그래프(정점의 수: N, 간선의 수: E)의 모든 간선을 조회한다.
   - 인접 리스트로 표현된 그래프: O(N+E)
   - 인접 행렬로 표현된 그래프: O(N^2)
-
-> 출처 : https://gmlwjd9405.github.io/2018/08/14/algorithm-dfs.html
-
-## BFS
 
 <details>
 <summary>DFS 예시</summary>
@@ -55,7 +52,23 @@ dfs(graph, 1, visited)
 </div>
 </details>
 
-</br>
+## BFS
+
+**너비 우선 탐색(BFS, Breath-First Search)**
+
+- 인접한 노드를 먼저 탐색하는 알고리즘
+- 노드 간의 최단 경로 및 임의의 거리를 탐색하기 위해서 사용한다
+- DFS보다 구현하기가 복잡하다
+- 인접한 노드를 저장하고 꺼내므로 큐를 이용하여 구현한다
+- 노드를 방문했으면 그 노드를 방문했다는 여부를 검사해야한다
+
+[](https://github.com/knotted-developers/Computer-science/blob/main/Algorithm/Images/BFS.gif)
+
+BFS의 시간 복잡도
+
+- BFS는 그래프(정점의 수: N, 간선의 수: E)
+  - 인접 리스트로 표현된 그래프: O(N+E)
+  - 인접 행렬로 표현된 그래프: O(N^2)
 
 <details>
 <summary>BFS 예시</summary>
@@ -99,3 +112,5 @@ bfs(graph, 1, visited)
 ### B-Tree
 
 [B-Tree 테스트 사이트](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
+
+> https://gmlwjd9405.github.io/2018/08/15/algorithm-bfs.html
