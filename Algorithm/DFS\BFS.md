@@ -26,15 +26,19 @@ DFS의 시간 복잡도
 
 graph = [
   [],
-  [2,3,4],
-  [1],
-  [1,5,6],
-  [1],
+  [2,5,9],
+  [1,3],
+  [2,4],
   [3],
-  [3]
+  [1,6,8],
+  [5,7],
+  [6],
+  [5],
+  [1,10],
+  [9]
 ]
 
-visited = [False]*9
+visited = [False]*11
 
 def dfs(graph, v , visited):
   visited[v] = True
@@ -45,7 +49,7 @@ def dfs(graph, v , visited):
 
 dfs(graph, 1, visited)
 
-1 2 3 5 6 4
+1 2 3 4 5 6 7 8 9 10
 
 ```
 
@@ -79,15 +83,19 @@ from collections import deque
 
 graph = [
   [],
-  [2,3,4],
-  [1],
-  [1,5,6],
-  [1],
+  [2,5,9],
+  [1,3],
+  [2,4],
   [3],
-  [3]
+  [1,6,8],
+  [5,7],
+  [6],
+  [5],
+  [1,10],
+  [9]
 ]
 
-visited = [False]*9
+visited = [False]*11
 
 def bfs(graph, v, visited):
   visited[v] = True
@@ -103,7 +111,7 @@ def bfs(graph, v, visited):
 
 bfs(graph, 1, visited)
 
-1 2 3 4 5 6
+1 2 3 4 5 6 7 8 9 10
 ```
 
 </div>
