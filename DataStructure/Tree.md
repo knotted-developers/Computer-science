@@ -2,7 +2,7 @@
 
 노드로만 이루어진 자료구조
 
-node 그림
+![node 그림](https://github.com/knotted-developers/Computer-science/blob/8ba6ae3c7911569cca76d940645fda54bd2fb2d6/DataStructure/Images/node.png)
 
 ### Tree 구성
 
@@ -40,7 +40,7 @@ node 그림
 - 순회는 Pre-order, In-order 아니면 Post-order로 이루어진다. 이 3가지 모두 DFS/BFS 안에 있다.
 - 트리는 이진 트리, 이진 탐색 트리, 균형 트리(AVL 트리, red-black 트리), 이진 힙(최대힙, 최소힙) 등이 있다.
 
-그래프 vs 트리
+![그래프 vs 트리](https://github.com/knotted-developers/Computer-science/blob/26ddb5131b21e19b95e4204d75459365243c9df5/DataStructure/Images/%EA%B7%B8%EB%9E%98%ED%94%84%20vs%20%ED%8A%B8%EB%A6%AC.png)
 
 ### B-Tree
 
