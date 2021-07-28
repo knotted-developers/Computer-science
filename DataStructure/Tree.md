@@ -77,8 +77,8 @@
 - 형제한테 빌리기 / 형제와 결합하기 ( 아래서 자세히 설명 )
 - 삭제 키가 있는 노드가 내부 노드인 경우 - 대체 키를 찾아 대체한다.( 왼쪽 서브트리 중 가장 큰 값 OR 오른쪽 서브트리 중 가장 작은 값.)
 
-> 출처
-> https://matice.tistory.com/8 
-> https://darrengwon.tistory.com/874
+> 출처</br>
+> https://matice.tistory.com/8</br>
+> https://darrengwon.tistory.com/874</br>
 
 [B-Tree 구현 사이트](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
