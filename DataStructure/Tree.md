@@ -79,6 +79,6 @@
 
 > 출처
 > https://matice.tistory.com/8 
-> > https://darrengwon.tistory.com/874
+> https://darrengwon.tistory.com/874
 
 [B-Tree 구현 사이트](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
