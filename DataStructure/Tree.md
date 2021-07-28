@@ -1,6 +1,6 @@
 ## Tree
 
-노드로만 이루어진 자료구조
+**노드로만 이루어진 자료구조(계층적 구조)**
 
 <img src="https://github.com/knotted-developers/Computer-science/blob/8ba6ae3c7911569cca76d940645fda54bd2fb2d6/DataStructure/Images/node.png" width=500 height=300></img>
 
