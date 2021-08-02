@@ -6,4 +6,5 @@
 - [프로세스 vs 스레드](https://github.com/knotted-developers/Computer-science/blob/98d8e3aa601c332431f2d9de8e10c236a4033168/Development%20common%20sense/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20VS%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
 - [TDD](https://github.com/knotted-developers/Computer-science/blob/main/Development%20common%20sense/TDD.md)
 - [Git](https://github.com/knotted-developers/Computer-science/blob/main/Development%20common%20sense/Git%EC%9D%B4%EB%9E%80%3F.md)
+
 [뒤로](https://github.com/knotted-developers/Computer-science)
