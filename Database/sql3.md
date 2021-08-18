@@ -43,12 +43,12 @@
 -> **우리는 집계함수의 인수로 DISTINCT를 사용할 수 있어!**
 ```
 💚 select count(all phone_number), count(distinct phone_number) from users; 💚
-# count all로 phone_number의 중복값 제거 null count,
+# count(all 열명)로 phone_number의 null값만 제거,
 # distinct에서 phone_number의 중복값 제거 + null 제거!
 ```
 ![](https://images.velog.io/images/majaeh43/post/f9c5b697-6f42-4518-bad2-6342835877bf/image.png)
 
-* 다시 말해 all은 중복값만 제거해주고, distinct는 중복값제거+null제거라는 것 !
+* 다시 말해 all은 null값만 제거해주고, distinct는 중복값제거+null제거라는 것 !
 
 #### 💚 21강 COUNT 이외의 집계함수
 * 집계함수는 COUNT만 있는 것이 아니야! SUM 집계함수를 사용해 집합의 합계치를 구할 수 있씀!
